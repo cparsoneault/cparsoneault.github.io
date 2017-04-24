@@ -1,3 +1,15 @@
 p{
   color: blue;
 }
+
+.loremIpsumContainer{
+  font-family: "arial", Georgia, Serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+
+.loremIpsumContainer:hover{
+  color: red;
+}

@@ -4,8 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>My First Page</title>
+  <link type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+  <script src="https://use.fontawesome.com/7acea452b3.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/css_basic.css">
-  <script type="text/javascript" src="jquery-1.8.3.js"></script>
   <script src="js/includemefam.js"></script>
 </head>
 <body>
@@ -19,9 +23,9 @@
   <br>
 
   <!-- Link with New Tab -->
-  <a href="https://www.google.com" target="_blank">It Opens the Tab</a>
+  <a href="https://www.google.com" target="_blank">It Opens the Tab With Its Click</a>
   <br>
-  <p>Rawrawrawrawrawr!</p>
+  <p><small>Rawrawrawrawrawr!</small></p>
   <br>
 
   <!-- Bold Link -->
@@ -32,8 +36,13 @@
   <a href="#">This is a placeholder link, goes no where, for now</a>
 
   <div>
-    <button type="button" onclick="youClickedMe()">Click Me!</button>
+    <button type="button" class="btn btn-primary" onclick="youClickedMe()">Click Me!</button>
   </div>
+
+  <div class="loremIpsumContainer">
+    Nam sagittis rhoncus velit in tempor. Cras et justo quis nunc aliquam tempor. Sed rhoncus imperdiet tortor. Donec a quam ut leo tincidunt iaculis in in purus. Praesent quis metus ultricies, lobortis diam eget, ornare sapien. Vestibulum non nisi sapien. Duis in lectus odio. Praesent eu tincidunt eros. Curabitur convallis quam blandit, pharetra leo porta, ornare nunc. Aliquam dolor erat, consequat id nibh eget, vehicula posuere sapien. Sed vitae ne Curabitdapibus ipsum eleifend eu. Quisque augue lacus, congue id est sed, dapibus imperdiet massa!!!
+  </div>
+  <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
 
 </body>
 
